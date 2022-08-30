@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="@Smoke" duration-ms="16856" started-at="2022-08-30T05:24:28Z" finished-at="2022-08-30T05:24:45Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:facebook.us.runner.FBMyRunner@2b4bac49]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="FBLoginTest" duration-ms="16856" started-at="2022-08-30T05:24:28Z" finished-at="2022-08-30T05:24:45Z">
+      <class name="facebook.us.runner.FBMyRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:facebook.us.runner.FBMyRunner@2b4bac49]" name="setUpClass" is-config="true" duration-ms="407" started-at="2022-08-30T05:24:28Z" finished-at="2022-08-30T05:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:facebook.us.runner.FBMyRunner@2b4bac49]" name="runScenario" duration-ms="16325" started-at="2022-08-30T05:24:28Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-30T05:24:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User able to login the application & verfy the users informations on the grid"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[User able to use zoopla application, login the application, searching the property, buy the property]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:facebook.us.runner.FBMyRunner@2b4bac49]" name="tearDownClass" is-config="true" duration-ms="101" started-at="2022-08-30T05:24:45Z" finished-at="2022-08-30T05:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- facebook.us.runner.FBMyRunner -->
+    </test> <!-- FBLoginTest -->
+  </suite> <!-- @Smoke -->
+</testng-results>
